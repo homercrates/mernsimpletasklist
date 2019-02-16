@@ -1,0 +1,56 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\M\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js check --integrity
+
+PATH: 
+  C:\Users\M\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\M\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Python36-32\Scripts;C:\Program Files (x86)\Python36-32;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\PuTTY;C:\Program Files\Git\cmd;C:\Python27;C:\Program Files\nodejs;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Ruby25-x64\bin;C:\Users\M\AppData\Local\Microsoft\WindowsApps;C:\Users\M\AppData\Local\Android\sdk\platform-tools;C:\Users\M\AppData\Local\atom\bin;C:\Users\M\AppData\Roaming\npm;C:\Users\M\AppData\Local\Microsoft\WindowsApps;C:\Users\M\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  8.4.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  TypeError: Cannot read property 'body-parser@^1.18.3' of undefined
+      at C:\Users\M\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:47252:26
+      at Array.filter (<anonymous>)
+      at InstallationIntegrityChecker.<anonymous> (C:\Users\M\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:47251:38)
+      at Generator.next (<anonymous>)
+      at step (C:\Users\M\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:304:30)
+      at C:\Users\M\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:322:14
+      at Promise (<anonymous>)
+      at F (C:\Users\M\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:5228:28)
+      at InstallationIntegrityChecker.<anonymous> (C:\Users\M\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:301:12)
+      at InstallationIntegrityChecker.check (C:\Users\M\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:47300:21)
+
+npm manifest: 
+  {
+    "name": "shoppinglist",
+    "version": "1.0.0",
+    "description": "MERN stack simple shopping list",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "server": "nodemon server.js"
+    },
+    "author": "Stephen Williams",
+    "license": "MIT",
+    "dependencies": {
+      "body-parser": "^1.18.3",
+      "concurrently": "^4.1.0",
+      "express": "^4.16.4",
+      "mongoose": "^5.4.13"
+    },
+    "devDependencies": {
+      "nodemon": "^1.18.10"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
